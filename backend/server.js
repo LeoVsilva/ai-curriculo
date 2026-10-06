@@ -6,7 +6,7 @@ const { GoogleGenAI } = require('@google/genai');
 
 const app = express();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
@@ -432,7 +432,5 @@ app.get('/', (req, res) => {
  * Inicialização do servidor.
  */
 app.listen(PORT, () => {
-  console.log(
-    `\nBackend rodando em http://localhost:${PORT}`
-  );
+  console.log(`Backend rodando na porta ${PORT}`);
 });
