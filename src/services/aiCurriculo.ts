@@ -41,7 +41,8 @@ export type ResultadoCurriculoIA = {
   ferramentasSugeridas: string[];
 };
 
-const API_URL = 'http://192.168.1.16:3000';
+// URL pública do backend hospedado no Render
+const API_URL = 'https://ai-curriculo-backend.onrender.com';
 
 function prepararDadosParaIA(
   dados: DadosCurriculoIA

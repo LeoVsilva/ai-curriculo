@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "ai-curriculo",
+    "name": "Gerador de Curriculo - IA",
     "slug": "ai-curriculo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logoIACV.png",
     "scheme": "aicurriculo",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/logoIACV.png"
     },
     "android": {
       "adaptiveIcon": {
